@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<java version="1.6.0_17" class="java.beans.XMLDecoder"> 
+ <object id="NodeInstance0" class="com.modeliosoft.templateeditor.newNodes.model.NodeInstance"> 
+  <void property="children"> 
+   <void method="add"> 
+    <object id="NodeInstance1" class="com.modeliosoft.templateeditor.newNodes.model.NodeInstance"> 
+     <void property="children"> 
+      <void method="add"> 
+       <object id="NodeInstance2" class="com.modeliosoft.templateeditor.newNodes.model.NodeInstance"> 
+        <void property="children"> 
+         <void method="add"> 
+          <object id="NodeInstance3" class="com.modeliosoft.templateeditor.newNodes.model.NodeInstance"> 
+           <void property="children"> 
+            <void method="add"> 
+             <object id="NodeInstance4" class="com.modeliosoft.templateeditor.newNodes.model.NodeInstance"> 
+              <void property="children"> 
+               <void method="add"> 
+                <object class="com.modeliosoft.templateeditor.newNodes.model.NodeInstance"> 
+                 <void property="description"> 
+                  <string></string> 
+                 </void> 
+                 <void property="inputMetaclass"> 
+                  <class>com.modeliosoft.modelio.api.model.uml.infrastructure.IElement</class> 
+                 </void> 
+                 <void property="name"> 
+                  <string>ServiceData</string> 
+                 </void> 
+                 <void property="parent"> 
+                  <object idref="NodeInstance4"/> 
+                 </void> 
+                 <void property="nodeTypeClass"> 
+                  <string>com.modeliosoft.templateeditor.newNodes.other.NodeCallNode.NodeCallType</string> 
+                 </void> 
+                 <void property="values"> 
+                  <void method="put"> 
+                   <string>reference</string> 
+                   <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+                    <void property="type"> 
+                     <object id="ParameterTypes0" class="com.modeliosoft.templateeditor.newNodes.model.ParameterTypes" method="valueOf"> 
+                      <string>STRING</string> 
+                     </object> 
+                    </void> 
+                    <void property="value"> 
+                     <string>2</string> 
+                    </void> 
+                   </object> 
+                  </void> 
+                 </void> 
+                </object> 
+               </void> 
+              </void> 
+              <void property="description"> 
+               <string></string> 
+              </void> 
+              <void property="inputMetaclass"> 
+               <class>com.modeliosoft.modelio.api.model.uml.infrastructure.IElement</class> 
+              </void> 
+              <void property="name"> 
+               <string>Section</string> 
+              </void> 
+              <void property="parent"> 
+               <object idref="NodeInstance3"/> 
+              </void> 
+              <void property="nodeTypeClass"> 
+               <string>com.modeliosoft.templateeditor.newNodes.production.SectionNode.SectionType</string> 
+              </void> 
+              <void property="values"> 
+               <void method="put"> 
+                <string>text</string> 
+                <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+                 <void property="type"> 
+                  <object idref="ParameterTypes0"/> 
+                 </void> 
+                 <void property="value"> 
+                  <string>Donnée de Service $Name</string> 
+                 </void> 
+                </object> 
+               </void> 
+               <void method="put"> 
+                <string>sectionStyle</string> 
+                <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+                 <void property="type"> 
+                  <object idref="ParameterTypes0"/> 
+                 </void> 
+                 <void property="value"> 
+                  <string>Titre n+1</string> 
+                 </void> 
+                </object> 
+               </void> 
+               <void method="put"> 
+                <string>alternativeText</string> 
+                <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+                 <void property="type"> 
+                  <object idref="ParameterTypes0"/> 
+                 </void> 
+                 <void property="value"> 
+                  <string></string> 
+                 </void> 
+                </object> 
+               </void> 
+              </void> 
+             </object> 
+            </void> 
+           </void> 
+           <void property="description"> 
+            <string></string> 
+           </void> 
+           <void property="inputMetaclass"> 
+            <class>com.modeliosoft.modelio.api.model.uml.infrastructure.IElement</class> 
+           </void> 
+           <void property="name"> 
+            <string>Smart Finder</string> 
+           </void> 
+           <void property="outputMetaclass"> 
+            <class>com.modeliosoft.modelio.api.model.uml.statik.IClass</class> 
+           </void> 
+           <void property="parent"> 
+            <object idref="NodeInstance2"/> 
+           </void> 
+           <void property="nodeTypeClass"> 
+            <string>com.modeliosoft.templateeditor.newNodes.navigation.SmartFinderNode.SmartFinderType</string> 
+           </void> 
+           <void property="values"> 
+            <void method="put"> 
+             <string>outputStereotype</string> 
+             <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+              <void property="type"> 
+               <object idref="ParameterTypes0"/> 
+              </void> 
+              <void property="value"> 
+               <string>ServiceData</string> 
+              </void> 
+             </object> 
+            </void> 
+            <void method="put"> 
+             <string>parentFilterStereotype</string> 
+             <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+              <void property="type"> 
+               <object idref="ParameterTypes0"/> 
+              </void> 
+              <void property="value"> 
+               <string>None</string> 
+              </void> 
+             </object> 
+            </void> 
+            <void method="put"> 
+             <string>parentFilterMetaclass</string> 
+             <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+              <void property="type"> 
+               <object idref="ParameterTypes0"/> 
+              </void> 
+              <void property="value"> 
+               <string>ModelElement</string> 
+              </void> 
+             </object> 
+            </void> 
+            <void method="put"> 
+             <string>inputStereotype</string> 
+             <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+              <void property="type"> 
+               <object idref="ParameterTypes0"/> 
+              </void> 
+              <void property="value"> 
+               <string>None</string> 
+              </void> 
+             </object> 
+            </void> 
+           </void> 
+          </object> 
+         </void> 
+        </void> 
+        <void property="description"> 
+         <string></string> 
+        </void> 
+        <void property="inputMetaclass"> 
+         <class>com.modeliosoft.modelio.api.model.uml.infrastructure.IElement</class> 
+        </void> 
+        <void property="name"> 
+         <string>Section</string> 
+        </void> 
+        <void property="parent"> 
+         <object idref="NodeInstance1"/> 
+        </void> 
+        <void property="nodeTypeClass"> 
+         <string>com.modeliosoft.templateeditor.newNodes.production.SectionNode.SectionType</string> 
+        </void> 
+        <void property="values"> 
+         <void method="put"> 
+          <string>text</string> 
+          <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+           <void property="type"> 
+            <object idref="ParameterTypes0"/> 
+           </void> 
+           <void property="value"> 
+            <string>Liste des Donnée de Service</string> 
+           </void> 
+          </object> 
+         </void> 
+         <void method="put"> 
+          <string>removeEmptySection</string> 
+          <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+           <void property="type"> 
+            <object idref="ParameterTypes0"/> 
+           </void> 
+           <void property="value"> 
+            <string>FALSE</string> 
+           </void> 
+          </object> 
+         </void> 
+         <void method="put"> 
+          <string>sectionStyle</string> 
+          <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+           <void property="type"> 
+            <object idref="ParameterTypes0"/> 
+           </void> 
+           <void property="value"> 
+            <string>Titre n+1</string> 
+           </void> 
+          </object> 
+         </void> 
+         <void method="put"> 
+          <string>alternativeText</string> 
+          <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+           <void property="type"> 
+            <object idref="ParameterTypes0"/> 
+           </void> 
+           <void property="value"> 
+            <string>NA</string> 
+           </void> 
+          </object> 
+         </void> 
+        </void> 
+       </object> 
+      </void> 
+     </void> 
+     <void property="description"> 
+      <string></string> 
+     </void> 
+     <void property="inputMetaclass"> 
+      <class>com.modeliosoft.modelio.api.model.uml.infrastructure.IElement</class> 
+     </void> 
+     <void property="name"> 
+      <string>ServiceDataCatalog</string> 
+     </void> 
+     <void property="outputMetaclass"> 
+      <class>com.modeliosoft.modelio.api.model.uml.infrastructure.IElement</class> 
+     </void> 
+     <void property="parent"> 
+      <object idref="NodeInstance0"/> 
+     </void> 
+     <void property="nodeTypeClass"> 
+      <string>com.modeliosoft.templateeditor.newNodes.other.RootNode.RootType</string> 
+     </void> 
+     <void property="values"> 
+      <void method="put"> 
+       <string>description</string> 
+       <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+        <void property="type"> 
+         <object idref="ParameterTypes0"/> 
+        </void> 
+        <void property="value"> 
+         <string></string> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="put"> 
+       <string>modificationDate</string> 
+       <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+        <void property="type"> 
+         <object idref="ParameterTypes0"/> 
+        </void> 
+        <void property="value"> 
+         <string>Wed Jun 29 13:23:39 CEST 2011</string> 
+        </void> 
+       </object> 
+      </void> 
+     </void> 
+    </object> 
+   </void> 
+   <void method="add"> 
+    <object id="NodeInstance5" class="com.modeliosoft.templateeditor.newNodes.model.NodeInstance"> 
+     <void property="children"> 
+      <void method="add"> 
+       <object id="NodeInstance6" class="com.modeliosoft.templateeditor.newNodes.model.NodeInstance"> 
+        <void property="children"> 
+         <void method="add"> 
+          <object class="com.modeliosoft.templateeditor.newNodes.model.NodeInstance"> 
+           <void property="description"> 
+            <string></string> 
+           </void> 
+           <void property="inputMetaclass"> 
+            <class>com.modeliosoft.modelio.api.model.uml.infrastructure.IElement</class> 
+           </void> 
+           <void property="name"> 
+            <string>Diagram Note Description</string> 
+           </void> 
+           <void property="parent"> 
+            <object idref="NodeInstance6"/> 
+           </void> 
+           <void property="nodeTypeClass"> 
+            <string>com.modeliosoft.templateeditor.newNodes.production.ParagraphNode.ParagraphType</string> 
+           </void> 
+           <void property="values"> 
+            <void method="put"> 
+             <string>text</string> 
+             <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+              <void property="type"> 
+               <object idref="ParameterTypes0"/> 
+              </void> 
+              <void property="value"> 
+               <string>$Content</string> 
+              </void> 
+             </object> 
+            </void> 
+            <void method="put"> 
+             <string>paragraphStyle</string> 
+             <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+              <void property="type"> 
+               <object idref="ParameterTypes0"/> 
+              </void> 
+              <void property="value"> 
+               <string>Texte</string> 
+              </void> 
+             </object> 
+            </void> 
+            <void method="put"> 
+             <string>characterStyle</string> 
+             <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+              <void property="type"> 
+               <object idref="ParameterTypes0"/> 
+              </void> 
+              <void property="value"> 
+               <string>Policepardfaut</string> 
+              </void> 
+             </object> 
+            </void> 
+            <void method="put"> 
+             <string>removeEmptyParagraph</string> 
+             <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+              <void property="type"> 
+               <object idref="ParameterTypes0"/> 
+              </void> 
+              <void property="value"> 
+               <string>FALSE</string> 
+              </void> 
+             </object> 
+            </void> 
+           </void> 
+          </object> 
+         </void> 
+        </void> 
+        <void property="description"> 
+         <string></string> 
+        </void> 
+        <void property="inputMetaclass"> 
+         <class>com.modeliosoft.modelio.api.model.uml.infrastructure.IModelElement</class> 
+        </void> 
+        <void property="name"> 
+         <string>Get Description Note</string> 
+        </void> 
+        <void property="outputMetaclass"> 
+         <class>com.modeliosoft.modelio.api.model.uml.infrastructure.INote</class> 
+        </void> 
+        <void property="parent"> 
+         <object idref="NodeInstance5"/> 
+        </void> 
+        <void property="nodeTypeClass"> 
+         <string>com.modeliosoft.templateeditor.newNodes.navigation.NoteNavigationNode.NoteNavigationType</string> 
+        </void> 
+        <void property="values"> 
+         <void method="put"> 
+          <string>noteName</string> 
+          <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+           <void property="type"> 
+            <object idref="ParameterTypes0"/> 
+           </void> 
+           <void property="value"> 
+            <string>description</string> 
+           </void> 
+          </object> 
+         </void> 
+         <void method="put"> 
+          <string>sort</string> 
+          <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+           <void property="type"> 
+            <object idref="ParameterTypes0"/> 
+           </void> 
+           <void property="value"> 
+            <string>FALSE</string> 
+           </void> 
+          </object> 
+         </void> 
+         <void method="put"> 
+          <string>sequenceMode</string> 
+          <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+           <void property="type"> 
+            <object idref="ParameterTypes0"/> 
+           </void> 
+           <void property="value"> 
+            <string>TRUE</string> 
+           </void> 
+          </object> 
+         </void> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object id="NodeInstance7" class="com.modeliosoft.templateeditor.newNodes.model.NodeInstance"> 
+        <void property="children"> 
+         <void method="add"> 
+          <object class="com.modeliosoft.templateeditor.newNodes.model.NodeInstance"> 
+           <void property="description"> 
+            <string></string> 
+           </void> 
+           <void property="inputMetaclass"> 
+            <class>com.modeliosoft.modelio.api.model.diagrams.IAbstractDiagram</class> 
+           </void> 
+           <void property="name"> 
+            <string>name</string> 
+           </void> 
+           <void property="parent"> 
+            <object idref="NodeInstance7"/> 
+           </void> 
+           <void property="nodeTypeClass"> 
+            <string>com.modeliosoft.templateeditor.newNodes.production.DiagramNode.DiagramType</string> 
+           </void> 
+           <void property="values"> 
+            <void method="put"> 
+             <string>paragraphStyle</string> 
+             <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+              <void property="type"> 
+               <object idref="ParameterTypes0"/> 
+              </void> 
+              <void property="value"> 
+               <string>Texte</string> 
+              </void> 
+             </object> 
+            </void> 
+            <void method="put"> 
+             <string>caption</string> 
+             <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+              <void property="type"> 
+               <object idref="ParameterTypes0"/> 
+              </void> 
+              <void property="value"> 
+               <string>$Name</string> 
+              </void> 
+             </object> 
+            </void> 
+           </void> 
+          </object> 
+         </void> 
+         <void method="add"> 
+          <object id="NodeInstance8" class="com.modeliosoft.templateeditor.newNodes.model.NodeInstance"> 
+           <void property="children"> 
+            <void method="add"> 
+             <object class="com.modeliosoft.templateeditor.newNodes.model.NodeInstance"> 
+              <void property="description"> 
+               <string></string> 
+              </void> 
+              <void property="inputMetaclass"> 
+               <class>com.modeliosoft.modelio.api.model.uml.infrastructure.IElement</class> 
+              </void> 
+              <void property="name"> 
+               <string>Diagram Note Description</string> 
+              </void> 
+              <void property="parent"> 
+               <object idref="NodeInstance8"/> 
+              </void> 
+              <void property="nodeTypeClass"> 
+               <string>com.modeliosoft.templateeditor.newNodes.production.ParagraphNode.ParagraphType</string> 
+              </void> 
+              <void property="values"> 
+               <void method="put"> 
+                <string>text</string> 
+                <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+                 <void property="type"> 
+                  <object idref="ParameterTypes0"/> 
+                 </void> 
+                 <void property="value"> 
+                  <string>$Content</string> 
+                 </void> 
+                </object> 
+               </void> 
+               <void method="put"> 
+                <string>paragraphStyle</string> 
+                <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+                 <void property="type"> 
+                  <object idref="ParameterTypes0"/> 
+                 </void> 
+                 <void property="value"> 
+                  <string>Texte</string> 
+                 </void> 
+                </object> 
+               </void> 
+               <void method="put"> 
+                <string>characterStyle</string> 
+                <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+                 <void property="type"> 
+                  <object idref="ParameterTypes0"/> 
+                 </void> 
+                 <void property="value"> 
+                  <string>Policepardfaut</string> 
+                 </void> 
+                </object> 
+               </void> 
+               <void method="put"> 
+                <string>removeEmptyParagraph</string> 
+                <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+                 <void property="type"> 
+                  <object idref="ParameterTypes0"/> 
+                 </void> 
+                 <void property="value"> 
+                  <string>FALSE</string> 
+                 </void> 
+                </object> 
+               </void> 
+              </void> 
+             </object> 
+            </void> 
+           </void> 
+           <void property="description"> 
+            <string></string> 
+           </void> 
+           <void property="inputMetaclass"> 
+            <class>com.modeliosoft.modelio.api.model.uml.infrastructure.IModelElement</class> 
+           </void> 
+           <void property="name"> 
+            <string>Get Description Note</string> 
+           </void> 
+           <void property="outputMetaclass"> 
+            <class>com.modeliosoft.modelio.api.model.uml.infrastructure.INote</class> 
+           </void> 
+           <void property="parent"> 
+            <object idref="NodeInstance7"/> 
+           </void> 
+           <void property="nodeTypeClass"> 
+            <string>com.modeliosoft.templateeditor.newNodes.navigation.NoteNavigationNode.NoteNavigationType</string> 
+           </void> 
+           <void property="values"> 
+            <void method="put"> 
+             <string>noteName</string> 
+             <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+              <void property="type"> 
+               <object idref="ParameterTypes0"/> 
+              </void> 
+              <void property="value"> 
+               <string>description</string> 
+              </void> 
+             </object> 
+            </void> 
+            <void method="put"> 
+             <string>sort</string> 
+             <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+              <void property="type"> 
+               <object idref="ParameterTypes0"/> 
+              </void> 
+              <void property="value"> 
+               <string>FALSE</string> 
+              </void> 
+             </object> 
+            </void> 
+            <void method="put"> 
+             <string>sequenceMode</string> 
+             <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+              <void property="type"> 
+               <object idref="ParameterTypes0"/> 
+              </void> 
+              <void property="value"> 
+               <string>TRUE</string> 
+              </void> 
+             </object> 
+            </void> 
+           </void> 
+          </object> 
+         </void> 
+        </void> 
+        <void property="description"> 
+         <string></string> 
+        </void> 
+        <void property="inputMetaclass"> 
+         <class>com.modeliosoft.modelio.api.model.uml.infrastructure.IModelElement</class> 
+        </void> 
+        <void property="name"> 
+         <string>ServiceDataDiagram</string> 
+        </void> 
+        <void property="outputMetaclass"> 
+         <class>com.modeliosoft.modelio.api.model.diagrams.IStaticDiagram</class> 
+        </void> 
+        <void property="parent"> 
+         <object idref="NodeInstance5"/> 
+        </void> 
+        <void property="nodeTypeClass"> 
+         <string>com.modeliosoft.templateeditor.newNodes.navigation.SmartNavigationNode.SmartNavigationType</string> 
+        </void> 
+        <void property="values"> 
+         <void method="put"> 
+          <string>outputStereotype</string> 
+          <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+           <void property="type"> 
+            <object idref="ParameterTypes0"/> 
+           </void> 
+           <void property="value"> 
+            <string>ServiceDataDiagram</string> 
+           </void> 
+          </object> 
+         </void> 
+         <void method="put"> 
+          <string>relation</string> 
+          <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+           <void property="type"> 
+            <object idref="ParameterTypes0"/> 
+           </void> 
+           <void property="value"> 
+            <string>product</string> 
+           </void> 
+          </object> 
+         </void> 
+         <void method="put"> 
+          <string>inputStereotype</string> 
+          <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+           <void property="type"> 
+            <object idref="ParameterTypes0"/> 
+           </void> 
+           <void property="value"> 
+            <string>None</string> 
+           </void> 
+          </object> 
+         </void> 
+        </void> 
+       </object> 
+      </void> 
+      <void method="add"> 
+       <object class="com.modeliosoft.templateeditor.newNodes.model.NodeInstance"> 
+        <void property="description"> 
+         <string></string> 
+        </void> 
+        <void property="inputMetaclass"> 
+         <class>com.modeliosoft.modelio.api.model.uml.infrastructure.IElement</class> 
+        </void> 
+        <void property="name"> 
+         <string>Paragraphe</string> 
+        </void> 
+        <void property="parent"> 
+         <object idref="NodeInstance5"/> 
+        </void> 
+        <void property="nodeTypeClass"> 
+         <string>com.modeliosoft.templateeditor.newNodes.production.ParagraphNode.ParagraphType</string> 
+        </void> 
+        <void property="values"> 
+         <void method="put"> 
+          <string>text</string> 
+          <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+           <void property="type"> 
+            <object idref="ParameterTypes0"/> 
+           </void> 
+           <void property="value"> 
+            <string>Fragements</string> 
+           </void> 
+          </object> 
+         </void> 
+         <void method="put"> 
+          <string>paragraphStyle</string> 
+          <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+           <void property="type"> 
+            <object idref="ParameterTypes0"/> 
+           </void> 
+           <void property="value"> 
+            <string>Soustitre</string> 
+           </void> 
+          </object> 
+         </void> 
+         <void method="put"> 
+          <string>characterStyle</string> 
+          <object class="com.modeliosoft.templateeditor.newNodes.model.NodeParameterValue"> 
+           <void property="type"> 
+            <object idref="ParameterTypes0"/> 
+           </void> 
+           <void property="value"> 
+            <string>None</string> 
+           </void> 
+          </object> 
+         </void> 
+        </void> 
+       </object> 
+      </void> 
+     </void> 
+     <void property="description"> 
+      <string></string> 
+     </void> 
+     <void property="inputMetaclass"> 
+      <class>com.modeliosoft.modelio.api.model.uml.statik.IClass</class> 
+     </void> 
+     <void property="name"> 
+      <string>ServiceData</string> 
+     </void> 
+     <void property="outputMetaclass"> 
+      <class>com.modeliosoft.modelio.api.model.uml.statik.IClass</class> 
+     </void> 
+     <void property="parent"> 
+      <object idref="NodeInstance0"/> 
+     </void> 
+     <void property="nodeTypeClass"> 
+      <string>com.modeliosoft.templateeditor.newNodes.other.ProcedureNode.ProcedureType</string> 
+     </void> 
+    </object> 
+   </void> 
+  </void> 
+  <void property="inputMetaclass"> 
+   <class>com.modeliosoft.modelio.api.model.uml.infrastructure.IElement</class> 
+  </void> 
+  <void property="name"> 
+   <string>Dummy Node</string> 
+  </void> 
+  <void property="outputMetaclass"> 
+   <class>com.modeliosoft.modelio.api.model.uml.infrastructure.IElement</class> 
+  </void> 
+  <void property="nodeTypeClass"> 
+   <string>com.modeliosoft.templateeditor.newNodes.other.DummyNode.DummyNodeType</string> 
+  </void> 
+ </object> 
+</java> 

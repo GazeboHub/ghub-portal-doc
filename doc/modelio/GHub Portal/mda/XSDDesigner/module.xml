@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<module licenseRequired="false" uid="00601e10-0000-148b-0000-000000000000" name="XSDDesigner" version="2.1.00.8021" class="org.modelio.xsddesigner.impl.XSDDesignerMdac" binaryversion="2.2.01.8021">
+    <classpath>
+        <entry path="lib/XSDDesigner-2.1.00.jar"/>
+        <entry path="lib/common-2.3.2.jar"/>
+        <entry path="lib/ecore-2.3.2.jar"/>
+        <entry path="lib/xsd-2.3.2.jar"/>
+    </classpath>
+    <profile uid="00601e10-0000-1495-0000-000000000000" name="XSDDeveloperProfile">
+        <anonymous-stereotype uid="00601e10-0000-1496-0000-000000000000" metaclass="Class"/>
+        <anonymous-stereotype uid="00601e10-0000-2c8e-0000-000000000000" metaclass="Attribute"/>
+        <anonymous-stereotype uid="00601e10-0000-2c94-0000-000000000000" metaclass="Association"/>
+        <anonymous-stereotype uid="00601e10-0000-2c9f-0000-000000000000" metaclass="DataType"/>
+        <anonymous-stereotype uid="00601e10-0000-5066-0000-000000000000" metaclass="ElementImport"/>
+        <anonymous-stereotype uid="00601f78-0000-042e-0000-000000000000" metaclass="Dependency"/>
+        <anonymous-stereotype uid="00601f78-0000-1913-0000-000000000000" metaclass="AssociationEnd"/>
+        <anonymous-stereotype uid="006020f8-0000-0c62-0000-000000000000" metaclass="StaticDiagram"/>
+        <anonymous-stereotype uid="00602234-0000-84d7-0000-000000000000" metaclass="Generalization"/>
+        <stereotype uid="00601e10-0000-3a57-0000-000000000000" name="XSDAnonymousComplexType" label="" metaclass="Class" is-hidden="true">
+            <icons>
+                <small path="res/bmp/XSDComplexTypeAnonymous16.png"/>
+                <explorer path="res/bmp/XSDComplexTypeAnonymous16.png"/>
+                <diagram path=""/>
+            </icons>
+        </stereotype>
+        <stereotype uid="00601f78-0000-1964-0000-000000000000" name="XSDAnonymousSimpleType" label="" metaclass="DataType" is-hidden="true">
+            <icons>
+                <small path="res/bmp/XSDSimpleTypeAnonymous16.png"/>
+                <explorer path="res/bmp/XSDSimpleTypeAnonymous16.png"/>
+                <diagram path=""/>
+            </icons>
+        </stereotype>
+        <stereotype uid="00602234-0000-46ff-0000-000000000000" name="XSDAttibuteGroup" label="" metaclass="Class" is-hidden="true">
+            <icons>
+                <small path="res/bmp/XSDAttributGroup16.png"/>
+                <explorer path="res/bmp/XSDAttributGroup16.png"/>
+                <diagram path="res/bmp/XSDAttributGroup16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="00602234-0000-46f0-0000-000000000000" name="XSDAttribute" label="" metaclass="Attribute" is-hidden="true">
+            <icons>
+                <small path="res/bmp/XSDAttribut16.png"/>
+                <explorer path="res/bmp/XSDAttribut16.png"/>
+                <diagram path="res/bmp/XSDAttribut16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="00602234-0000-46f5-0000-000000000000" name="XSDComplexAttribute" label="" metaclass="Association" is-hidden="true">
+            <icons>
+                <small path="res/bmp/XSDComplexAttribut16.png"/>
+                <explorer path="res/bmp/XSDComplexAttribut16.png"/>
+                <diagram path="res/bmp/XSDComplexAttribut16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="00602234-0000-5e73-0000-000000000000" name="XSDComplexAttributeEnd" label="" metaclass="AssociationEnd" is-hidden="true">
+            <icons>
+                <small path="res/bmp/XSDComplexAttribut16.png"/>
+                <explorer path="res/bmp/XSDComplexAttribut16.png"/>
+                <diagram path="res/bmp/XSDComplexAttribut16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="00602234-0000-5e6e-0000-000000000000" name="XSDComplexAttributeStart" label="" metaclass="AssociationEnd" is-hidden="true">
+            <icons>
+                <small path="res/bmp/XSDComplexAttribut16.png"/>
+                <explorer path="res/bmp/XSDComplexAttribut16.png"/>
+                <diagram path="res/bmp/XSDComplexAttribut16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="00601e10-0000-2c96-0000-000000000000" name="XSDComplexElement" label="" metaclass="Association" is-hidden="true">
+            <icons>
+                <small path="res/bmp/XSDComplexElement16.png"/>
+                <explorer path="res/bmp/XSDComplexElement16.png"/>
+                <diagram path=""/>
+            </icons>
+        </stereotype>
+        <stereotype uid="006020f8-0000-0c5e-0000-000000000000" name="XSDComplexElement" label="" metaclass="Attribute" is-hidden="true">
+            <icons>
+                <small path="res/bmp/XSDComplexElement16.png"/>
+                <explorer path="res/bmp/XSDComplexElement16.png"/>
+                <diagram path=""/>
+            </icons>
+        </stereotype>
+        <stereotype uid="00601f78-0000-191a-0000-000000000000" name="XSDComplexElementEnd" label="" metaclass="AssociationEnd" is-hidden="true">
+            <icons>
+                <small path="res/bmp/XSDComplexElement16.png"/>
+                <explorer path="res/bmp/XSDComplexElement16.png"/>
+                <diagram path=""/>
+            </icons>
+        </stereotype>
+        <stereotype uid="00601f78-0000-1915-0000-000000000000" name="XSDComplexElementStart" label="" metaclass="AssociationEnd" is-hidden="true">
+            <icons>
+                <small path="res/bmp/XSDComplexElement16.png"/>
+                <explorer path="res/bmp/XSDComplexElement16.png"/>
+                <diagram path=""/>
+            </icons>
+        </stereotype>
+        <stereotype uid="00601e10-0000-2c9b-0000-000000000000" name="XSDComplexType" label="" metaclass="NameSpace" is-hidden="true">
+            <icons>
+                <small path="res/bmp/XSDComplexType16.png"/>
+                <explorer path="res/bmp/XSDComplexType16.png"/>
+                <diagram path=""/>
+            </icons>
+        </stereotype>
+        <stereotype uid="006020f8-0000-0c1a-0000-000000000000" name="XSDDefaultType" label="" metaclass="DataType" is-hidden="true">
+            <icons>
+                <small path=""/>
+                <explorer path=""/>
+                <diagram path=""/>
+            </icons>
+        </stereotype>
+        <stereotype uid="006020f8-0000-0c64-0000-000000000000" name="XSDDiagram" label="" metaclass="StaticDiagram" is-hidden="true">
+            <icons>
+                <small path="res/bmp/XSDDiagram16.png"/>
+                <explorer path="res/bmp/XSDDiagram16.png"/>
+                <diagram path=""/>
+            </icons>
+        </stereotype>
+        <stereotype uid="00601e10-0000-2c90-0000-000000000000" name="XSDElement" label="" metaclass="Attribute" is-hidden="false">
+            <icons>
+                <small path="res/bmp/XSDElement16.png"/>
+                <explorer path="res/bmp/XSDElement16.png"/>
+                <diagram path=""/>
+            </icons>
+        </stereotype>
+        <stereotype uid="00601e10-0000-2ca1-0000-000000000000" name="XSDExternalType" label="" metaclass="DataType" is-hidden="true">
+            <icons>
+                <small path=""/>
+                <explorer path=""/>
+                <diagram path=""/>
+            </icons>
+        </stereotype>
+        <stereotype uid="006020f8-0000-1ee2-0000-000000000000" name="XSDFolder" label="" metaclass="Class" is-hidden="true">
+            <icons>
+                <small path="res/bmp/XSDFolder16.png"/>
+                <explorer path="res/bmp/XSDFolder16.png"/>
+                <diagram path=""/>
+            </icons>
+        </stereotype>
+        <stereotype uid="00602234-0000-46fa-0000-000000000000" name="XSDGroup" label="" metaclass="Class" is-hidden="true">
+            <icons>
+                <small path="res/bmp/XSDGroup16.png"/>
+                <explorer path="res/bmp/XSDGroup16.png"/>
+                <diagram path="res/bmp/XSDGroup16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="00601e10-0000-506d-0000-000000000000" name="XSDImportLink" label="" metaclass="ElementImport" is-hidden="true">
+            <icons>
+                <small path=""/>
+                <explorer path=""/>
+                <diagram path=""/>
+            </icons>
+        </stereotype>
+        <stereotype uid="00601e10-0000-5072-0000-000000000000" name="XSDIncludeLink" label="" metaclass="ElementImport" is-hidden="true">
+            <icons>
+                <small path=""/>
+                <explorer path=""/>
+                <diagram path=""/>
+            </icons>
+        </stereotype>
+        <stereotype uid="00601e10-0000-5068-0000-000000000000" name="XSDRedefineLink" label="" metaclass="ElementImport" is-hidden="true">
+            <icons>
+                <small path=""/>
+                <explorer path=""/>
+                <diagram path=""/>
+            </icons>
+        </stereotype>
+        <stereotype uid="00601e10-0000-1498-0000-000000000000" name="XSDRoot" label="" metaclass="Class" is-hidden="true">
+            <icons>
+                <small path="res/bmp/XSDRoot16.png"/>
+                <explorer path="res/bmp/XSDRoot16.png"/>
+                <diagram path=""/>
+            </icons>
+            <notetype is-hidden="false" label="" name="XSD" uid="00601e10-0000-2c18-0000-000000000000"/>
+            <taggedvalues name="xsd.namespace" uid="00601f78-0000-16ac-0000-000000000000" label="" parameter-card="1" is-hidden="true" is-signed="false"/>
+            <taggedvalues name="xsd.schemaLocation" uid="00601f78-0000-16b1-0000-000000000000" label="" parameter-card="1" is-hidden="true" is-signed="false"/>
+        </stereotype>
+        <stereotype uid="006020f8-0000-0939-0000-000000000000" name="XSDSimpleDerivedTypes" label="" metaclass="Class" is-hidden="true">
+            <icons>
+                <small path="res/bmp/Folder16.png"/>
+                <explorer path="res/bmp/Folder16.png"/>
+                <diagram path=""/>
+            </icons>
+        </stereotype>
+        <stereotype uid="006020f8-0000-093e-0000-000000000000" name="XSDSimplePrimitiveTypes" label="" metaclass="Class" is-hidden="true">
+            <icons>
+                <small path="res/bmp/Folder16.png"/>
+                <explorer path="res/bmp/Folder16.png"/>
+                <diagram path=""/>
+            </icons>
+        </stereotype>
+        <stereotype uid="00601f78-0000-195f-0000-000000000000" name="XSDSimpleType" label="" metaclass="DataType" is-hidden="true">
+            <icons>
+                <small path="res/bmp/XSDSimpleType16.png"/>
+                <explorer path="res/bmp/XSDSimpleType16.png"/>
+                <diagram path=""/>
+            </icons>
+        </stereotype>
+        <stereotype uid="006020f8-0000-0934-0000-000000000000" name="XSDTypeNamespace" label="" metaclass="Class" is-hidden="true">
+            <icons>
+                <small path="res/bmp/TypeFolder16.png"/>
+                <explorer path="res/bmp/TypeFolder16.png"/>
+                <diagram path=""/>
+            </icons>
+        </stereotype>
+        <stereotype uid="00601f78-0000-0430-0000-000000000000" name="XSDTypes" label="" metaclass="Dependency" is-hidden="true">
+            <icons>
+                <small path=""/>
+                <explorer path=""/>
+                <diagram path=""/>
+            </icons>
+        </stereotype>
+        <stereotype uid="00602234-0000-779f-0000-000000000000" name="XSDAttributeRef" label="" metaclass="Attribute" owner-stereotype="XSDAttribute" is-hidden="true">
+            <icons>
+                <small path="res/bmp/XSDAttributRef16.png"/>
+                <explorer path="res/bmp/XSDAttributRef16.png"/>
+                <diagram path="res/bmp/XSDAttributRef16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="00602234-0000-77a4-0000-000000000000" name="XSDComplexAttributeRef" label="" metaclass="Association" owner-stereotype="XSDComplexAttribute" is-hidden="true">
+            <icons>
+                <small path="res/bmp/XSDComplexAttributRef16.png"/>
+                <explorer path="res/bmp/XSDComplexAttributRef16.png"/>
+                <diagram path="res/bmp/XSDComplexAttributRef16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="00602234-0000-77a9-0000-000000000000" name="XSDComplexAttributeEndRef" label="" metaclass="AssociationEnd" owner-stereotype="XSDComplexAttributeEnd" is-hidden="true">
+            <icons>
+                <small path="res/bmp/XSDComplexAttributRef16.png"/>
+                <explorer path="res/bmp/XSDComplexAttributRef16.png"/>
+                <diagram path="res/bmp/XSDComplexAttributRef16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="00602234-0000-77ae-0000-000000000000" name="XSDComplexAttributeStartRef" label="" metaclass="AssociationEnd" owner-stereotype="XSDComplexAttributeStart" is-hidden="true">
+            <icons>
+                <small path="res/bmp/XSDComplexAttributRef16.png"/>
+                <explorer path="res/bmp/XSDComplexAttributRef16.png"/>
+                <diagram path="res/bmp/XSDComplexAttributRef16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="00602234-0000-77b3-0000-000000000000" name="XSDComplexElementRef" label="" metaclass="Association" owner-stereotype="XSDComplexElement" is-hidden="true">
+            <icons>
+                <small path="res/bmp/XSDComplexElementRef16.png"/>
+                <explorer path="res/bmp/XSDComplexElementRef16.png"/>
+                <diagram path="res/bmp/XSDComplexElementRef16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="00602234-0000-77bd-0000-000000000000" name="XSDComplexElementEndRef" label="" metaclass="AssociationEnd" owner-stereotype="XSDComplexElementEnd" is-hidden="true">
+            <icons>
+                <small path="res/bmp/XSDComplexElementRef16.png"/>
+                <explorer path="res/bmp/XSDComplexElementRef16.png"/>
+                <diagram path="res/bmp/XSDComplexElementRef16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="00602234-0000-77c2-0000-000000000000" name="XSDComplexElementStartRef" label="" metaclass="AssociationEnd" owner-stereotype="XSDComplexElementStart" is-hidden="true">
+            <icons>
+                <small path="res/bmp/XSDComplexElementRef16.png"/>
+                <explorer path="res/bmp/XSDComplexElementRef16.png"/>
+                <diagram path="res/bmp/XSDComplexElementRef16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="00602234-0000-77c7-0000-000000000000" name="XSDElementRef" label="" metaclass="Attribute" owner-stereotype="XSDElement" is-hidden="true">
+            <icons>
+                <small path="res/bmp/XSDElementRef16.png"/>
+                <explorer path="res/bmp/XSDElementRef16.png"/>
+                <diagram path="res/bmp/XSDElementRef16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="00602234-0000-84d9-0000-000000000000" name="XSDExtention" label="" metaclass="Generalization" is-hidden="true">
+            <icons>
+                <small path="res/bmp/XSDExtention16.png"/>
+                <explorer path="res/bmp/XSDExtention16.png"/>
+                <diagram path="res/bmp/XSDExtention16.png"/>
+            </icons>
+        </stereotype>
+        <stereotype uid="00602234-0000-84de-0000-000000000000" name="XSDRestriction" label="" metaclass="Generalization" is-hidden="true">
+            <icons>
+                <small path="res/bmp/XSDRestriction16.png"/>
+                <explorer path="res/bmp/XSDRestriction16.png"/>
+                <diagram path=""/>
+            </icons>
+        </stereotype>
+    </profile>
+    <docpath>
+        <entry path="doc/com.modeliosoft.modelio.documentation.xsd.jar"/>
+    </docpath>
+</module>

@@ -1,0 +1,1574 @@
+<module uid="a79b1502-ac66-11df-8037-0014224f9977" name="TogafArchitect"
+	version="2.2.06.8021" binaryversion="2.2.01.8021" licenseRequired="false"
+	class="com.modeliosoft.modelio.togafarchitect.impl.TogafArchitectMdac">
+	<classpath>
+		<entry path='lib/TogafArchitect.jar' />
+		<entry path='lib/poi-3.7-20101029.jar' />
+	</classpath>
+	<profile uid="c13a53c2-ab6c-11df-9861-0014224f9977" name="BusinessEntities">
+		<stereotype uid="146eb72a-ab73-11df-9861-0014224f9977"
+			name="BusinessEntity" label="business entity" metaclass="Class"
+			owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/BusinessEntitys16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/BusinessEntitys16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/BusinessEntitys32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="257e7cea-ab73-11df-9861-0014224f9977"
+			name="InformationDomain" label="information domain" metaclass="Package"
+			owner-stereotype="BusinessEntities" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/BusinessDomain16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/BusinessDomain16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/BusinessDomain32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="33be3eda-ab73-11df-9861-0014224f9977"
+			name="BusinessOperation" label="business operation" metaclass="Operation"
+			owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/BusinessOperation16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/BusinessOperation16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/BusinessOperation16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="45b7aa4a-ab73-11df-9861-0014224f9977"
+			name="TogafEnumeration" label="enumeration" metaclass="Enumeration"
+			owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/BusinessEnumeration16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/BusinessEnumeration16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/BusinessEnumeration16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="5f1fa40a-ab73-11df-9861-0014224f9977"
+			name="BusinessDataType" label="business data type" metaclass="DataType"
+			owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/BusinessDataType16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/BusinessDataType16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/BusinessDataType16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="6b76a582-ab73-11df-9861-0014224f9977"
+			name="PreCondition" label="precondition" metaclass="Constraint"
+			owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/PreCondition16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/PreCondition16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/PreCondition16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="79deef4a-ab73-11df-9861-0014224f9977"
+			name="PostCondition" label="postcondition" metaclass="Constraint"
+			owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/PostCondition16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/PostCondition16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/PostCondition16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="8dddb752-ab73-11df-9861-0014224f9977"
+			name="BusinessInvariant" label="invariant" metaclass="Constraint"
+			owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/Invariant16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/Invariant16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/Invariant16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="9bd12e42-ab73-11df-9861-0014224f9977"
+			name="EntityLifeCycle" label="lifecycle" metaclass="StateMachine"
+			owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/EntityLifeCycle16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/EntityLifeCycle16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/EntityLifeCycle32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="abb48cb2-ab73-11df-9861-0014224f9977"
+			name="BusinessAttribute" label="attribute" metaclass="Attribute"
+			owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/BusinessAttribute16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/BusinessAttribute16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/BusinessAttribute16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="c3447662-ab73-11df-9861-0014224f9977"
+			name="TogafClassDiagram" label="class diagram" metaclass="StaticDiagram"
+			owner-stereotype="TogafDiagram" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/ClassDiagram16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/ClassDiagram16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/ClassDiagram16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="f4e0db8a-ab73-11df-9861-0014224f9977"
+			name="TogafDataLifeCycleDiagram" label="data lifecycle diagram"
+			metaclass="StateMachineDiagram" owner-stereotype="TogafDiagram" is-hidden="false">
+			<icons>
+				<small
+					path="TogafArchitect/res/bmp/profile/TogafDataLifeCycleDiagram16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/TogafDataLifeCycleDiagram16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/TogafDataLifeCycleDiagram16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="fec736f2-ab73-11df-9861-0014224f9977"
+			name="TogafDataMigrationDiagram" label="data migration diagram"
+			metaclass="StaticDiagram" owner-stereotype="TogafClassDiagram"
+			is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/DataMigrationDiagram16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/DataMigrationDiagram16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/DataMigrationDiagram16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="08eb384a-ab75-11df-9861-0014224f9977"
+			name="TogafClassHierachyDiagram" label="class hierarchy diagram"
+			metaclass="StaticDiagram" owner-stereotype="TogafClassDiagram"
+			is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/ClassHierachyDiagram16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/ClassHierachyDiagram16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/ClassHierachyDiagram16.png" />
+			</icons>
+		</stereotype>
+	</profile>
+	<profile uid="c4b60052-ab6c-11df-9861-0014224f9977" name="Business Architecture">
+		<stereotype uid="67bbf9b2-ab84-11df-9861-0014224f9977"
+			name="TogafService" label="service" metaclass="Interface"
+			owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/Service16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/Service16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/Service32.png" />
+			</icons>
+			<notetype uid="aaaa91cd-d551-11df-ade8-0014224f9977" name="TogafService_contract"
+				label="contract" is-hidden="false" />
+			<taggedvalues uid="d5ef4773-ab95-11df-9861-0014224f9977"
+				name="TogafService_type" label="type" parameter-card="1" is-hidden="false"
+				is-signed="false" />
+			<taggedvalues uid="d9d645aa-ab95-11df-9861-0014224f9977"
+				name="TogafService_businessImportance" label="businessImportance"
+				parameter-card="1" is-hidden="false" is-signed="false" />
+			<taggedvalues uid="d9f54463-ab95-11df-9861-0014224f9977"
+				name="TogafService_QOS" label="QOS" parameter-card="1" is-hidden="false"
+				is-signed="false" />
+			<taggedvalues uid="da16a579-ab95-11df-9861-0014224f9977"
+				name="TogafService_SLA" label="SLA" parameter-card="1" is-hidden="false"
+				is-signed="false" />
+			<taggedvalues uid="da35a432-ab95-11df-9861-0014224f9977"
+				name="TogafService_troughput" label="troughput" parameter-card="1"
+				is-hidden="false" is-signed="false" />
+			<taggedvalues uid="da570548-ab95-11df-9861-0014224f9977"
+				name="TogafService_troughputPeriod" label="troughputPeriod"
+				parameter-card="1" is-hidden="false" is-signed="false" />
+			<taggedvalues uid="da7d2b18-ab95-11df-9861-0014224f9977"
+				name="TogafService_growth" label="growth" parameter-card="1"
+				is-hidden="false" is-signed="false" />
+			<taggedvalues uid="daaa77ff-ab95-11df-9861-0014224f9977"
+				name="TogafService_growthPeriod" label="growthPeriod"
+				parameter-card="1" is-hidden="false" is-signed="false" />
+			<taggedvalues uid="daf6c39f-ab95-11df-9861-0014224f9977"
+				name="TogafService_serviceTimes" label="serviceTimes"
+				parameter-card="1" is-hidden="false" is-signed="false" />
+			<taggedvalues uid="db34c111-ab95-11df-9861-0014224f9977"
+				name="TogafService_peakProfileShortTerm" label="peakProfileShortTerm"
+				parameter-card="1" is-hidden="false" is-signed="false" />
+			<taggedvalues uid="db77833d-ab95-11df-9861-0014224f9977"
+				name="TogafService_peakProfileLongTerm" label="peakProfileLongTerm"
+				parameter-card="1" is-hidden="false" is-signed="false" />
+			<taggedvalues uid="30608d46-ab96-11df-9861-0014224f9977"
+				name="TogafService_RACI" label="RACI" parameter-card="1" is-hidden="false"
+				is-signed="false" />
+		</stereotype>
+		<stereotype uid="876fa3d2-ab84-11df-9861-0014224f9977"
+			name="TogafServiceOperation" label="business operation" metaclass="Operation"
+			owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/ServiceOperation16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/ServiceOperation16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/ServiceOperation32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="62426be2-ab75-11df-9861-0014224f9977"
+			name="OrganizationParticipant" label="organization participant"
+			metaclass="Actor" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/Participant16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/Participant16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/Participant32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="57451e42-ab75-11df-9861-0014224f9977"
+			name="TogafActor" label="actor" metaclass="Actor" owner-stereotype="OrganizationParticipant"
+			is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/Participant16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/Participant16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/Participant32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="3f3991b2-ab74-11df-9861-0014224f9977"
+			name="TogafEvent" label="event" metaclass="Signal" owner-stereotype="TogafElement"
+			is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/Event16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/Event16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/Event32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="7cd6ccf2-ab75-11df-9861-0014224f9977"
+			name="TogafExternalActor" label="external actor" metaclass="Actor"
+			owner-stereotype="TogafActor" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/ExternalActor16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/ExternalActor16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/ExternalActor32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="b42187ca-ab75-11df-9861-0014224f9977"
+			name="BusinessOrganizationDomain" label="organization  domain"
+			metaclass="Package" owner-stereotype="BusinessArchitecture"
+			is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/OrganizationsDomain16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/OrganizationsDomain16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/OrganizationsDomain32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="d1a288ca-ab75-11df-9861-0014224f9977"
+			name="TogafInternalActor" label="internal actor" metaclass="Actor"
+			owner-stereotype="TogafActor" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/InternalActor16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/InternalActor16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/InternalActor32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="ecabbcb2-ab75-11df-9861-0014224f9977"
+			name="Communicates" label="communicates with" metaclass="Dependency"
+			owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/Communicates16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/Communicates16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/Communicates16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="130cd74a-ab76-11df-9861-0014224f9977"
+			name="Initiator" label="initiator of" metaclass="Dependency"
+			owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/Initiator16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/Initiator16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/Initiator16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="2cbeb9b2-ab76-11df-9861-0014224f9977"
+			name="Responsible" label="responsible of" metaclass="Dependency"
+			owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/Responsible16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/Responsible16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/Responsible16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="44beb18a-ab76-11df-9861-0014224f9977"
+			name="Participates" label="participates in" metaclass="Dependency"
+			owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/Participates16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/Participates16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/Participates16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="5413035a-ab76-11df-9861-0014224f9977"
+			name="TogafOrganizationUnit" label="organization unit" metaclass="Package"
+			owner-stereotype="BusinessArchitecture" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/OrganizationsUnit16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/OrganizationsUnit16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/OrganizationsUnit32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="71075a12-ab76-11df-9861-0014224f9977"
+			name="TogafRole" label="external role" metaclass="Actor"
+			owner-stereotype="OrganizationParticipant" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/Participant16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/Participant16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/Participant32.png" />
+			</icons>
+			<taggedvalues uid="5df508be-ab95-11df-9861-0014224f9977"
+				name="TogafRole_SkillsRequirements" label="Skills Requirements"
+				parameter-card="1" is-hidden="false" is-signed="false" />
+			<taggedvalues uid="517c1ab8-6431-11e0-ad1e-bc305ba4815c"
+				name="TogafRole_Cardinality" label="" parameter-card="1" is-hidden="false"
+				is-signed="false" />
+		</stereotype>
+		<stereotype uid="9becc562-ab76-11df-9861-0014224f9977"
+			name="Assumes" label="assumes" metaclass="Dependency"
+			owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/Assumes16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/Assumes16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/Assumes16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="aee2e942-ab76-11df-9861-0014224f9977"
+			name="Owner" label="owner of" metaclass="Dependency"
+			owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/Owner16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/Owner16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/Owner16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="ed5991c5-e515-11e0-bbbe-bc305ba4815c"
+			name="TogafProcess" label="business process" metaclass="BpmnBehavior"
+			owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/TogafProcess16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/TogafProcess16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/TogafProcess32.png" />
+			</icons>
+			<taggedvalues uid="ef52c9b5-e515-11e0-bbbe-bc305ba4815c"
+				name="TogafProcess_criticality" label="criticality" parameter-card="1"
+				is-hidden="false" is-signed="false" />
+			<taggedvalues uid="f046c6a5-e515-11e0-bbbe-bc305ba4815c"
+				name="TogafProcess_isAutomated" label="isAutomated" parameter-card="0"
+				is-hidden="false" is-signed="false" />
+			<taggedvalues uid="f0846be5-e515-11e0-bbbe-bc305ba4815c"
+				name="TogafProcess_volumetrics" label="volumetrics" parameter-card="1"
+				is-hidden="false" is-signed="false" />
+			<taggedvalues uid="f0aa4365-e515-11e0-bbbe-bc305ba4815c"
+				name="TogafProcess_duration" label="duration" parameter-card="1"
+				is-hidden="false" is-signed="false" />
+			<taggedvalues uid="f0c8c7e5-e515-11e0-bbbe-bc305ba4815c"
+				name="TogafProcess_KPI" label="kpi" parameter-card="1" is-hidden="false"
+				is-signed="false" />
+			<taggedvalues uid="f0f11065-e515-11e0-bbbe-bc305ba4815c"
+				name="TogafProcess_used_resources" label="used_resources"
+				parameter-card="1" is-hidden="false" is-signed="false" />
+			<taggedvalues uid="f11205e5-e515-11e0-bbbe-bc305ba4815c"
+				name="TogafProcess_kind" label="kind" parameter-card="1" is-hidden="false"
+				is-signed="false" />
+		</stereotype>
+		<stereotype uid="1476e48a-ab77-11df-9861-0014224f9977"
+			name="TogafProcess_old" label="business process" metaclass="Activity"
+			owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/TogafProcess16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/TogafProcess16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/TogafProcess32.png" />
+			</icons>
+			<taggedvalues uid="6fd231f6-ab95-11df-9861-0014224f9977"
+				name="TogafProcess_old_criticality" label="criticality"
+				parameter-card="1" is-hidden="false" is-signed="false" />
+			<taggedvalues uid="750e317e-ab95-11df-9861-0014224f9977"
+				name="TogafProcess_old_isAutomated" label="isAutomated"
+				parameter-card="0" is-hidden="false" is-signed="false" />
+			<taggedvalues uid="7561a52a-ab95-11df-9861-0014224f9977"
+				name="TogafProcess_old_volumetrics" label="volumetrics"
+				parameter-card="1" is-hidden="false" is-signed="false" />
+			<taggedvalues uid="dc9d524d-17e0-11e0-896f-0014224f9977"
+				name="TogafProcess_old_duration" label="duration" parameter-card="1"
+				is-hidden="false" is-signed="false" />
+			<taggedvalues uid="dddf2eb5-17e0-11e0-896f-0014224f9977"
+				name="TogafProcess_old_KPI" label="kpi" parameter-card="1"
+				is-hidden="false" is-signed="false" />
+			<taggedvalues uid="df0df85d-17e0-11e0-896f-0014224f9977"
+				name="TogafProcess_old_used_resources" label="used_resources"
+				parameter-card="1" is-hidden="false" is-signed="false" />
+			<taggedvalues uid="e03338a5-17e0-11e0-896f-0014224f9977"
+				name="TogafProcess_old_kind" label="kind" parameter-card="1"
+				is-hidden="false" is-signed="false" />
+		</stereotype>
+		<stereotype uid="397be8f2-ab77-11df-9861-0014224f9977"
+			name="TogafExternalRole" label="external role" metaclass="Actor"
+			owner-stereotype="TogafRole" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/ExternalRole16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/ExternalRole16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/ExternalRole32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="483c6972-ab77-11df-9861-0014224f9977"
+			name="TogafInternalRole" label="internal role" metaclass="Actor"
+			owner-stereotype="TogafRole" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/InternalRole16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/InternalRole16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/InternalRole32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="3de3f73a-ab84-11df-9861-0014224f9977"
+			name="IOFlow" label="flow" metaclass="Dependency" owner-stereotype="TogafElement"
+			is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/IOFlow16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/IOFlow16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/IOFlow16.png" />
+			</icons>
+			<taggedvalues uid="97298eef-ab95-11df-9861-0014224f9977"
+				name="IOFlow_habilitation" label="habilitation" parameter-card="*"
+				is-hidden="false" is-signed="false" />
+		</stereotype>
+		<stereotype uid="5e5b218a-ab84-11df-9861-0014224f9977"
+			name="TogafBusinessService" label="business service" metaclass="Interface"
+			owner-stereotype="TogafService" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/BusinessService16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/BusinessService16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/BusinessService32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="b1abc8ba-ab84-11df-9861-0014224f9977"
+			name="TogafBusinessOperation" label="TogafBusinessOperation"
+			metaclass="Operation" owner-stereotype="TogafServiceOperation"
+			is-hidden="false">
+			<icons>
+				<small
+					path="TogafArchitect/res/bmp/profile/BusinessServiceOperation16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/BusinessServiceOperation16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/BusinessServiceOperation32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="c2ed9fb2-ab84-11df-9861-0014224f9977"
+			name="TogafParticipantDecomposition" label="composed of" metaclass="Dependency"
+			owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small
+					path="TogafArchitect/res/bmp/profile/ParticipantDecomposition16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/ParticipantDecomposition16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/ParticipantDecomposition16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="d3e7f05a-ab84-11df-9861-0014224f9977"
+			name="TogafConsumes" label="consumes" metaclass="Dependency"
+			owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/TogafConsumes16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/TogafConsumes16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/TogafConsumes16.png" />
+			</icons>
+			<taggedvalues uid="a73cbdf5-ab95-11df-9861-0014224f9977"
+				name="TogafConsumes_habilitation" label="habilitation"
+				parameter-card="*" is-hidden="false" is-signed="false" />
+		</stereotype>
+		<stereotype uid="fba7837a-ab84-11df-9861-0014224f9977"
+			name="TogafFunction" label="function" metaclass="Interface"
+			owner-stereotype="TogafService" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/FunctionService16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/FunctionService16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/FunctionService32.png" />
+			</icons>
+			<notetype uid="93623890-d2db-11df-ab0e-0014224f9977" name="TogafFunction_valueFactor"
+				label="Value Factor" is-hidden="false" />
+			<notetype uid="94720432-d2db-11df-ab0e-0014224f9977" name="TogafFunction_changesNeeded"
+				label="Changes Needed" is-hidden="false" />
+			<notetype uid="957381be-d2db-11df-ab0e-0014224f9977" name="TogafFunction_increments"
+				label="Increments" is-hidden="false" />
+		</stereotype>
+		<stereotype uid="1a59b07a-ab85-11df-9861-0014224f9977"
+			name="ServiceProcessSupport" label="supports" metaclass="Dependency"
+			owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/ServiceProcessSupport16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/ServiceProcessSupport16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/ServiceProcessSupport16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="409707ea-ab85-11df-9861-0014224f9977"
+			name="TogafProduct" label="product" metaclass="Signal"
+			owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/TogafProduct16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/TogafProduct16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/TogafProduct32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="544984f2-ab85-11df-9861-0014224f9977"
+			name="TogafServiceContract" label="service contract" metaclass="Collaboration"
+			owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/ServiceContract16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/ServiceContract16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/ServiceContract32.png" />
+			</icons>
+			<notetype uid="61579705-013d-11e0-abc2-0014224f9977" name="Measure"
+				label="" is-hidden="false" />
+		</stereotype>
+		
+		<stereotype uid="44c1d03a-847c-11e1-a738-bc305ba4815c"
+			name="TogafApplicationCollaboration" label="Application Collaboration"
+			metaclass="Collaboration" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/ApplicationCollaboration16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/ApplicationCollaboration16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/ApplicationCollaboration32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="6fc9ee0a-ab85-11df-9861-0014224f9977"
+			name="TogafBusinessCapability" label="business capability" metaclass="Interface"
+			owner-stereotype="TogafService" is-hidden="false">
+			<icons>
+				<small
+					path="TogafArchitect/res/bmp/profile/BusinessCapabilityService16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/BusinessCapabilityService16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/BusinessCapabilityService32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="86e504e2-ab85-11df-9861-0014224f9977"
+			name="TogafFunctionSequence" label="sequence" metaclass="Dependency"
+			owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/TogafFunctionSequence16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/TogafFunctionSequence16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/TogafFunctionSequence16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="99a1f082-ab85-11df-9861-0014224f9977"
+			name="TogafLocation" label="location" metaclass="Node"
+			owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/Location16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/Location16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/Location32.png" />
+			</icons>
+			<taggedvalues uid="4aaff457-ab96-11df-9861-0014224f9977"
+				name="TogafLocation_category" label="category" parameter-card="1"
+				is-hidden="false" is-signed="false" />
+		</stereotype>
+		<stereotype uid="b9c34672-ab85-11df-9861-0014224f9977"
+			name="HeadquarterLocation" label="headquarter" metaclass="Node"
+			owner-stereotype="TogafLocation" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/HeadquarterLocation16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/HeadquarterLocation16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/HeadquarterLocation32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="1dcb7caa-ab86-11df-9861-0014224f9977"
+			name="TogafProcessFlowDiagram" label="TogafProcessFlowDiagram"
+			metaclass="BpmnProcessCollaborationDiagram" owner-stereotype="TogafDiagram"
+			is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/ProcessFlowDiagram16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/ProcessFlowDiagram16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/ProcessFlowDiagram16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="33776a92-ab86-11df-9861-0014224f9977"
+			name="TogafOrganizationRoleDiagram" label="OrganizationRoleDiagram"
+			metaclass="StaticDiagram" owner-stereotype="TogafDiagram" is-hidden="false">
+			<icons>
+				<small
+					path="TogafArchitect/res/bmp/profile/OrganizationRoleDiagram16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/OrganizationRoleDiagram16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/OrganizationRoleDiagram16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="435d2b5a-ab86-11df-9861-0014224f9977"
+			name="TogafFunctionalDecompositionDiagram" label="TogafFunctionalDecompositionDiagram"
+			metaclass="StaticDiagram" is-hidden="false">
+			<icons>
+				<small
+					path="TogafArchitect/res/bmp/profile/FunctionalDecompositionDiagram16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/FunctionalDecompositionDiagram16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/FunctionalDecompositionDiagram16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="6226d8ca-ab87-11df-9861-0014224f9977"
+			name="TogafUseCaseDiagram" label="use case diagram" metaclass="StaticDiagram"
+			owner-stereotype="TogafDiagram" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/TogafUseCaseDiagram16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/TogafUseCaseDiagram16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/TogafUseCaseDiagram16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="76744e2a-ab87-11df-9861-0014224f9977"
+			name="TogafBusinessUseCaseDiagram" label="business une case diagram"
+			metaclass="StaticDiagram" owner-stereotype="TogafUseCaseDiagram"
+			is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/TogafUseCaseDiagram16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/TogafUseCaseDiagram16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/TogafUseCaseDiagram16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="abd8aae2-ab87-11df-9861-0014224f9977"
+			name="TogafDataSecurityDiagram" label="data security diagram"
+			metaclass="StaticDiagram" owner-stereotype="TogafDiagram" is-hidden="false">
+			<icons>
+				<small
+					path="TogafArchitect/res/bmp/profile/TogafDataSecurityDiagram16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/TogafDataSecurityDiagram16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/TogafDataSecurityDiagram16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="d242f932-ab8f-11df-9861-0014224f9977"
+			name="TogafOrganizationDecompositionDiagram" label="organization decomposition diagram"
+			metaclass="StaticDiagram" owner-stereotype="TogafDiagram" is-hidden="false">
+			<icons>
+				<small
+					path="TogafArchitect/res/bmp/profile/OrganizationDecompositionDiagram16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/OrganizationDecompositionDiagram16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/OrganizationDecompositionDiagram16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="ed5cdd82-ab8f-11df-9861-0014224f9977"
+			name="TogafEventDiagram" label="event diagram" metaclass="StaticDiagram"
+			owner-stereotype="TogafDiagram" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/TogafEventDiagram16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/TogafEventDiagram16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/TogafEventDiagram16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="1101070a-ab90-11df-9861-0014224f9977"
+			name="TogafBusinessServiceInformationDiagram" label="business service information diagram"
+			metaclass="StaticDiagram" owner-stereotype="TogafDiagram" is-hidden="false">
+			<icons>
+				<small
+					path="TogafArchitect/res/bmp/profile/BusinessServiceInformationDiagram16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/BusinessServiceInformationDiagram16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/BusinessServiceInformationDiagram16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="24411392-ab90-11df-9861-0014224f9977"
+			name="TogafProductLifeCycleDiagram" label="product lifecycle diagram"
+			metaclass="StateMachineDiagram" owner-stereotype="TogafDiagram" is-hidden="false">
+			<icons>
+				<small
+					path="TogafArchitect/res/bmp/profile/ProductLifeCycleDiagram16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/ProductLifeCycleDiagram16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/ProductLifeCycleDiagram16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="39f1c62a-ab90-11df-9861-0014224f9977"
+			name="TogafValueChainDiagram" label="value change diagram" metaclass="StaticDiagram"
+			owner-stereotype="TogafDiagram" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/TogafValueChainDiagram16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/TogafValueChainDiagram16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/TogafValueChainDiagram16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="49bd4d2a-ab90-11df-9861-0014224f9977"
+			name="TogafGoalObjectiveServiceDiagram" label="global objective service diagram"
+			metaclass="StaticDiagram" owner-stereotype="TogafDiagram" is-hidden="false">
+			<icons>
+				<small
+					path="TogafArchitect/res/bmp/profile/GoalObjectiveServiceDiagram16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/GoalObjectiveServiceDiagram16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/GoalObjectiveServiceDiagram16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="55da0417-d6c4-11df-ade8-0014224f9977"
+			name="TogafBusinessFootPrintDiagram" label="TogafBusinessFootPrintDiagram"
+			metaclass="StaticDiagram" owner-stereotype="TogafFunctionalDecompositionDiagram"
+			is-hidden="false">
+			<icons>
+				<small
+					path="TogafArchitect/res/bmp/profile/BusinessFootPrintDiagram16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/BusinessFootPrintDiagram16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/BusinessFootPrintDiagram16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="6ae70329-d6d0-11df-ae1b-0014224f9977"
+			name="Part" label="part" metaclass="Dependency" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/Part16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/Part16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/Part16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="03153143-0118-11e0-abc2-0014224f9977"
+			name="TogafLocationDiagram" label="TogafLocationDiagram" metaclass="StaticDiagram"
+			owner-stereotype="TogafDiagram" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/TogafLocationDiagram16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/TogafLocationDiagram16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/TogafLocationDiagram16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="37ed1b4e-0137-11e0-abc2-0014224f9977"
+			name="ContractOf" label="contract of" metaclass="Dependency"
+			is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/ContractOf16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/ContractOf16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/ContractOf16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="b4c2512d-17e2-11e0-896f-0014224f9977"
+			name="TogafParticipantAllocation" label="allocated to" metaclass="Dependency"
+			is-hidden="false">
+			<icons>
+				<small
+					path="TogafArchitect/res/bmp/profile/TogafParticipantAllocation16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/TogafParticipantAllocation16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/TogafParticipantAllocation16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="dc0f6351-17e2-11e0-896f-0014224f9977"
+			name="TogafLocalization" label="localization" metaclass="Dependency"
+			is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/TogafLocalization16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/TogafLocalization16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/TogafLocalization16.png" />
+			</icons>
+		</stereotype>
+	</profile>
+	<profile uid="c9af23e2-ab6c-11df-9861-0014224f9977" name="DataArchitecture">
+		<stereotype uid="f3646d92-ab85-11df-9861-0014224f9977"
+			name="PersistentElement" label="PersistentElement" metaclass="ModelElement"
+			owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small path="" />
+				<explorer path="" />
+				<diagram path="" />
+			</icons>
+		</stereotype>
+	</profile>
+	<profile uid="cd581cfa-ab6c-11df-9861-0014224f9977" name="ApplicationArchitecture">
+		<stereotype uid="0ee37c02-ab91-11df-9861-0014224f9977"
+			name="TogafApplicationComponent" label="application component"
+			metaclass="Component" owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/ApplicationComponent16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/ApplicationComponent16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/ApplicationComponent32.png" />
+			</icons>
+			<taggedvalues uid="1af4340d-ac52-11df-9861-0014224f9977"
+				name="TogafApplicationComponent_level" label="" parameter-card="1"
+				is-hidden="false" is-signed="false" />
+			<taggedvalues uid="228fda5d-ac52-11df-9861-0014224f9977"
+				name="TogafApplicationComponent_size" label="size" parameter-card="1"
+				is-hidden="false" is-signed="false" />
+			<taggedvalues uid="22e1014b-ac52-11df-9861-0014224f9977"
+				name="TogafApplicationComponent_benefits" label="benefits"
+				parameter-card="1" is-hidden="false" is-signed="false" />
+			<taggedvalues uid="23a4b989-ac52-11df-9861-0014224f9977"
+				name="TogafApplicationComponent_complexity" label="complexity"
+				parameter-card="1" is-hidden="false" is-signed="false" />
+		</stereotype>
+		<stereotype uid="7a6af0f2-ab91-11df-9861-0014224f9977"
+			name="ServiceAccess" label="service access" metaclass="Port"
+			owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/ServiceAccess16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/ServiceAccess16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/ServiceAccess16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="ab03cda2-ab90-11df-9861-0014224f9977"
+			name="TogafISService" label="IS service" metaclass="Interface"
+			owner-stereotype="TogafService" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/ISService16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/ISService16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/ISService32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="c4d4ae82-ab90-11df-9861-0014224f9977"
+			name="TogafISServiceOperation" label="IS service operation"
+			metaclass="Operation" owner-stereotype="TogafServiceOperation"
+			is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/ISServiceOperation16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/ISServiceOperation16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/ISServiceOperation16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="d335d142-ab90-11df-9861-0014224f9977"
+			name="ServiceData" label="message" metaclass="Class"
+			owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/ServiceData16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/ServiceData16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/ServiceData32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="e32ea4ca-ab90-11df-9861-0014224f9977"
+			name="ServiceDataFragment" label="message fragment" metaclass="Class"
+			owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/ServiceDataFragment16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/ServiceDataFragment16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/ServiceDataFragment16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="f8c9e24a-ab90-11df-9861-0014224f9977"
+			name="ApplicationArchitectureAttribute" label="application attribute"
+			metaclass="Attribute" owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/BusinessAttribute16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/BusinessAttribute16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/BusinessAttribute16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="22048a12-ab91-11df-9861-0014224f9977"
+			name="ApplicationComponentOperation" label="application operation"
+			metaclass="Operation" owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/BusinessOperation16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/BusinessOperation16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/BusinessOperation16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="3d6f7e12-ab91-11df-9861-0014224f9977"
+			name="ApplicationArchitectureDomain" label="application domain"
+			metaclass="Package" owner-stereotype="ApplicationArchitecture"
+			is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/ApplicationDomain16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/ApplicationDomain16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/ApplicationDomain32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="540e9b0a-ab91-11df-9861-0014224f9977"
+			name="SystemApplicationComponent" label="system" metaclass="Component"
+			owner-stereotype="TogafApplicationComponent" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/System16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/System16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/System32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="64bf030a-ab91-11df-9861-0014224f9977"
+			name="ServiceApplicationComponent" label="service component"
+			metaclass="Component" owner-stereotype="TogafApplicationComponent"
+			is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/ApplicationComponent16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/ApplicationComponent16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/ApplicationComponent32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="8cabe2b2-ab91-11df-9861-0014224f9977"
+			name="ProvidedServiceAccess" label="provided" metaclass="Port"
+			owner-stereotype="ServiceAccess" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/ServiceAccessProvide16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/ServiceAccessProvide16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/ServiceAccessProvide16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="985276ba-ab91-11df-9861-0014224f9977"
+			name="RequiredServiceAccess" label="required" metaclass="Port"
+			owner-stereotype="ServiceAccess" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/ServiceAccessRequired16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/ServiceAccessRequired16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/ServiceAccessRequired16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="a5a3ce4a-ab91-11df-9861-0014224f9977"
+			name="TogafApplicationComponentInstance" label="application instance"
+			metaclass="Instance" owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small
+					path="TogafArchitect/res/bmp/profile/ApplicationComponentInstance16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/ApplicationComponentInstance16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/ApplicationComponentInstance32.png" />
+			</icons>
+			<taggedvalues uid="41f5ede5-ac53-11df-9861-0014224f9977"
+				name="TogafApplicationComponentInstance_occurencesNumber" label="occurencesNumber"
+				parameter-card="1" is-hidden="false" is-signed="false" />
+			<taggedvalues uid="4b1b83af-ac53-11df-9861-0014224f9977"
+				name="TogafApplicationComponentInstance_capacity" label="capacity"
+				parameter-card="1" is-hidden="false" is-signed="false" />
+		</stereotype>
+		<stereotype uid="b88e0672-ab91-11df-9861-0014224f9977"
+			name="DataBaseApplicationComponent" label="database" metaclass="Component"
+			owner-stereotype="TogafApplicationComponent" is-hidden="false">
+			<icons>
+				<small
+					path="TogafArchitect/res/bmp/profile/DataBaseApplicationComponent16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/DataBaseApplicationComponent16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/DataBaseApplicationComponent32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="ce6019da-ab91-11df-9861-0014224f9977"
+			name="TogafApplication" label="application" metaclass="Component"
+			owner-stereotype="SystemApplicationComponent" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/Application16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/Application16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/Application32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="e0acf752-ab91-11df-9861-0014224f9977"
+			name="TogafEnterpriseSystem" label="enterprise system" metaclass="Component"
+			owner-stereotype="SystemApplicationComponent" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/EnterpriseSystem16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/EnterpriseSystem16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/EnterpriseSystem32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="f0060dd2-ab91-11df-9861-0014224f9977"
+			name="TogafSystemFederation" label="system federation" metaclass="Component"
+			owner-stereotype="SystemApplicationComponent" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/SystemFederation16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/SystemFederation16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/SystemFederation32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="fe541dd2-ab91-11df-9861-0014224f9977"
+			name="EntityApplicationComponent" label="entity component" metaclass="Component"
+			owner-stereotype="ServiceApplicationComponent" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/EntityComponent16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/EntityComponent16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/EntityComponent32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="0aede0ea-ab92-11df-9861-0014224f9977"
+			name="InteractionApplicationComponent" label="interaction component"
+			metaclass="Component" owner-stereotype="ServiceApplicationComponent"
+			is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/InteractionComponent16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/InteractionComponent16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/InteractionComponent32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="294574da-ab92-11df-9861-0014224f9977"
+			name="IntermediaryApplicationComponent" label="intermediary component"
+			metaclass="Component" owner-stereotype="ServiceApplicationComponent"
+			is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/IntermediaryComponent16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/IntermediaryComponent16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/IntermediaryComponent32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="3e540812-ab92-11df-9861-0014224f9977"
+			name="ProcessApplicationComponent" label="process component"
+			metaclass="Component" owner-stereotype="ServiceApplicationComponent"
+			is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/ProcessComponent16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/ProcessComponent16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/ProcessComponent32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="4d78ab02-ab92-11df-9861-0014224f9977"
+			name="UtilityApplicationComponent" label="utility component"
+			metaclass="Component" owner-stereotype="ServiceApplicationComponent"
+			is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/UtilityComponent16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/UtilityComponent16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/UtilityComponent32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="5e565f8a-ab92-11df-9861-0014224f9977"
+			name="PublicApplicationComponent" label="public component" metaclass="Component"
+			owner-stereotype="ServiceApplicationComponent" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/PublicComponent16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/PublicComponent16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/PublicComponent32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="6bffedd2-ab92-11df-9861-0014224f9977"
+			name="ComponentRealization" label="realizes" metaclass="Dependency"
+			owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small
+					path="TogafArchitect/res/bmp/profile/ComponentRealizationInitiator16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/ComponentRealizationInitiator16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/ComponentRealizationInitiator16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="a67080da-ab92-11df-9861-0014224f9977"
+			name="ServiceDataDiagram" label="service data diagram" metaclass="StaticDiagram"
+			owner-stereotype="TogafDiagram" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/ServiceDataDiagram16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/ServiceDataDiagram16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/ServiceDataDiagram16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="b52c3caa-ab92-11df-9861-0014224f9977"
+			name="TogafApplicationCommunicationDiagram" label="application diagram"
+			metaclass="StaticDiagram" owner-stereotype="TogafDiagram" is-hidden="false">
+			<icons>
+				<small
+					path="TogafArchitect/res/bmp/profile/ApplicationCommunicationDiagram16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/ApplicationCommunicationDiagram16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/ApplicationCommunicationDiagram16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="c6190814-ab92-11df-9861-0014224f9977"
+			name="TogafSystemUseCaseDiagram" label="system use case diagram"
+			metaclass="StaticDiagram" owner-stereotype="TogafUseCaseDiagram"
+			is-hidden="false">
+			<icons>
+				<small
+					path="TogafArchitect/res/bmp/profile/TogafSystemUseCaseDiagram16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/TogafSystemUseCaseDiagram16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/TogafSystemUseCaseDiagram16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="ed98aa5e-ab92-11df-9861-0014224f9977"
+			name="TogafBenefitsDiagram" label="benefits diagram" metaclass="StaticDiagram"
+			owner-stereotype="TogafApplicationCommunicationDiagram" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/TogafBenefitsDiagram16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/TogafBenefitsDiagram16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/TogafBenefitsDiagram16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="02e28908-ab93-11df-9861-0014224f9977"
+			name="TogafSolutionConceptDiagram" label="solution concept diagram"
+			metaclass="StaticDiagram" is-hidden="false">
+			<icons>
+				<small
+					path="TogafArchitect/res/bmp/profile/TogafSolutionConceptDiagram16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/TogafSolutionConceptDiagram16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/TogafSolutionConceptDiagram16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="14d56e0c-ab93-11df-9861-0014224f9977"
+			name="TogafDataDisseminationDiagram" label="data dissemination diagram"
+			metaclass="StaticDiagram" owner-stereotype="TogafClassDiagram"
+			is-hidden="false">
+			<icons>
+				<small
+					path="TogafArchitect/res/bmp/profile/TogafDataDisseminationDiagram16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/TogafDataDisseminationDiagram16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/TogafDataDisseminationDiagram16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="2bdb8130-ab93-11df-9861-0014224f9977"
+			name="TogafEnterpriseManageabilityDiagram" label="enterprise manageability diagram"
+			metaclass="StaticDiagram" owner-stereotype="TogafApplicationCommunicationDiagram"
+			is-hidden="false">
+			<icons>
+				<small
+					path="TogafArchitect/res/bmp/profile/TogafEnterpriseManageabilityDiagram16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/TogafEnterpriseManageabilityDiagram16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/TogafEnterpriseManageabilityDiagram16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="485b73bf-ab93-11df-9861-0014224f9977"
+			name="TogafProcessSystemRealizationDiagram" label="process system realization diagram"
+			metaclass="StaticDiagram" owner-stereotype="TogafApplicationCommunicationDiagram"
+			is-hidden="false">
+			<icons>
+				<small
+					path="TogafArchitect/res/bmp/profile/TogafProcessSystemRealizationDiagram16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/TogafProcessSystemRealizationDiagram16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/TogafProcessSystemRealizationDiagram16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="63b80a14-ab93-11df-9861-0014224f9977"
+			name="TogafApplicationMigrationDiagram" label="application migration diagram"
+			metaclass="StaticDiagram" owner-stereotype="TogafApplicationCommunicationDiagram"
+			is-hidden="false">
+			<icons>
+				<small
+					path="TogafArchitect/res/bmp/profile/TogafApplicationMigrationDiagram16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/TogafApplicationMigrationDiagram16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/TogafApplicationMigrationDiagram16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="751ba45c-ab93-11df-9861-0014224f9977"
+			name="TogafProjectContextDiagram" label="project context diagram"
+			metaclass="StaticDiagram" owner-stereotype="TogafApplicationCommunicationDiagram"
+			is-hidden="false">
+			<icons>
+				<small
+					path="TogafArchitect/res/bmp/profile/TogafProjectContextDiagram16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/TogafProjectContextDiagram16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/TogafProjectContextDiagram16.png" />
+			</icons>
+		</stereotype>
+	</profile>
+	<profile uid="d19e70c2-ab6c-11df-9861-0014224f9977" name="TechnologyArchitecture">
+		<stereotype uid="b390b3d2-ab93-11df-9861-0014224f9977"
+			name="HardwareTechnologyComponent" label="technology component"
+			metaclass="Node" is-hidden="false">
+			<icons>
+				<small path="" />
+				<explorer path="" />
+				<diagram path="" />
+			</icons>
+		</stereotype>
+		<stereotype uid="8e7c51ea-ab93-11df-9861-0014224f9977"
+			name="TechnologyArchitectureDomain" label="technology domain"
+			metaclass="Package" owner-stereotype="TechnologyArchitecture"
+			is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/TechnologyDomain16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/TechnologyDomain16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/TechnologyDomain32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="a17a36ba-ab93-11df-9861-0014224f9977"
+			name="DeploymentServer" label="server" metaclass="Node"
+			owner-stereotype="HardwareTechnologyComponent" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/Server16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/Server16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/Server32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="d209ae22-ab93-11df-9861-0014224f9977"
+			name="DeploymentWorkStation" label="workstation" metaclass="Node"
+			owner-stereotype="HardwareTechnologyComponent" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/Workstation16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/Workstation16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/Workstation32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="dc2613fa-ab93-11df-9861-0014224f9977"
+			name="DeploymentInternet" label="internet" metaclass="Node"
+			owner-stereotype="HardwareTechnologyComponent" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/Internet16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/Internet16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/Internet32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="e826c1ba-ab93-11df-9861-0014224f9977"
+			name="DeploymentRouter" label="router" metaclass="Node"
+			owner-stereotype="HardwareTechnologyComponent" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/Router16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/Router16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/Router32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="f1f9334a-ab93-11df-9861-0014224f9977"
+			name="DeploymentSwitch" label="switch" metaclass="Node"
+			owner-stereotype="HardwareTechnologyComponent" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/Switch16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/Switch16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/Switch32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="fa0b25ba-ab93-11df-9861-0014224f9977"
+			name="DeploymentNetworkNode" label="network node" metaclass="Node"
+			owner-stereotype="HardwareTechnologyComponent" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/NetworkNode16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/NetworkNode16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/NetworkNode32.png" />
+			</icons>
+			<notetype uid="e86ee967-70d5-11e0-b90a-bc305ba4815c" name="NoteType"
+				label="" is-hidden="false" />
+		</stereotype>
+		<stereotype uid="0765bdb2-ab94-11df-9861-0014224f9977"
+			name="Connexion" label="connexion" metaclass="Dependency"
+			owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/Connexion16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/Connexion16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/Connexion16.png" />
+			</icons>
+			<taggedvalues uid="6e64dd41-ab96-11df-9861-0014224f9977"
+				name="Connexion_protocol" label="protocol" parameter-card="1"
+				is-hidden="false" is-signed="false" />
+			<taggedvalues uid="7417fa05-ab96-11df-9861-0014224f9977"
+				name="Connexion_capacity" label="capacity" parameter-card="1"
+				is-hidden="false" is-signed="false" />
+		</stereotype>
+		<stereotype uid="2b20208e-ab94-11df-9861-0014224f9977"
+			name="TechnologyArtifact" label="technology artifact" metaclass="Artifact"
+			owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/Artifact16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/Artifact16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/Artifact32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="48b377a4-ab94-11df-9861-0014224f9977"
+			name="TogafPlatformDecompositionDiagram" label="platform decomposition diagram"
+			metaclass="StaticDiagram" owner-stereotype="TogafDiagram" is-hidden="false">
+			<icons>
+				<small
+					path="TogafArchitect/res/bmp/profile/TogafPlatformDecompositionDiagram16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/TogafPlatformDecompositionDiagram16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/TogafPlatformDecompositionDiagram16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="5a1544e8-ab94-11df-9861-0014224f9977"
+			name="TogafApplicationAndUserLocationDiagram" label="application and user location diagram"
+			metaclass="StaticDiagram" owner-stereotype="TogafPlatformDecompositionDiagram"
+			is-hidden="false">
+			<icons>
+				<small
+					path="TogafArchitect/res/bmp/profile/TogafApplicationAndUserLocationDiagram16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/TogafApplicationAndUserLocationDiagram16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/TogafApplicationAndUserLocationDiagram16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="737ea8f8-ab94-11df-9861-0014224f9977"
+			name="TogafEnvironmentAndLocationsDiagram" label="environment and locations diagram"
+			metaclass="StaticDiagram" owner-stereotype="TogafApplicationAndUserLocationDiagram"
+			is-hidden="false">
+			<icons>
+				<small
+					path="TogafArchitect/res/bmp/profile/TogafEnvironmentAndLocationsDiagram16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/TogafEnvironmentAndLocationsDiagram16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/TogafEnvironmentAndLocationsDiagram16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="9566dfa8-ab94-11df-9861-0014224f9977"
+			name="TogafProcessingDiagram" label="processing diagram" metaclass="StaticDiagram"
+			owner-stereotype="TogafPlatformDecompositionDiagram" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/TogafProcessingDiagram16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/TogafProcessingDiagram16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/TogafProcessingDiagram16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="adb21a88-ab94-11df-9861-0014224f9977"
+			name="TogafNewtorkComputingHardwareDiagram" label="network computing hardware diagram"
+			metaclass="StaticDiagram" owner-stereotype="TogafPlatformDecompositionDiagram"
+			is-hidden="false">
+			<icons>
+				<small
+					path="TogafArchitect/res/bmp/profile/TogafNewtorkComputingHardwareDiagram16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/TogafNewtorkComputingHardwareDiagram16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/TogafNewtorkComputingHardwareDiagram16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="caf6bfe4-ab94-11df-9861-0014224f9977"
+			name="TogafCommunicationEngineeringDiagrams" label="communication enginiering diagram"
+			metaclass="StaticDiagram" owner-stereotype="TogafPlatformDecompositionDiagram"
+			is-hidden="false">
+			<icons>
+				<small
+					path="TogafArchitect/res/bmp/profile/TogafCommunicationEngineeringDiagrams16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/TogafCommunicationEngineeringDiagrams16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/TogafCommunicationEngineeringDiagrams16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="e0741312-ab94-11df-9861-0014224f9977"
+			name="SofwareDistributionDiagram" label="software distribution diagram"
+			metaclass="StaticDiagram" owner-stereotype="TogafPlatformDecompositionDiagram"
+			is-hidden="false">
+			<icons>
+				<small
+					path="TogafArchitect/res/bmp/profile/SofwareDistributionDiagram16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/SofwareDistributionDiagram16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/SofwareDistributionDiagram16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="9c049f6c-6450-11e0-ad1e-bc305ba4815c"
+			name="TogafBus" label="bus" metaclass="Node" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/TogafBus16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/TogafBus16.png" />
+				<diagram path="" />
+			</icons>
+		</stereotype>
+		<stereotype uid="bf13abf9-6450-11e0-ad1e-bc305ba4815c"
+			name="NetworkLink" label="network link" metaclass="Dependency"
+			is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/TogafNetworkLink16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/TogafNetworkLink16.png" />
+				<diagram path="" />
+			</icons>
+		</stereotype>
+	</profile>
+	<profile uid="bcbac7ba-ab6c-11df-9861-0014224f9977" name="Structure">
+		<anonymous-stereotype uid="7cf6018b-6433-11e0-ad1e-bc305ba4815c"
+			metaclass="ModelElement">
+		</anonymous-stereotype>
+		<stereotype uid="fd8b243a-ab70-11df-9861-0014224f9977"
+			name="TogafElement" label="supports" metaclass="ModelElement"
+			is-hidden="false">
+			<icons>
+				<small path="" />
+				<explorer path="" />
+				<diagram path="" />
+			</icons>
+			<taggedvalues uid="fe3d304a-ab94-11df-9861-0014224f9977"
+				name="TogafElement_reference" label="reference" parameter-card="1"
+				is-hidden="false" is-signed="false" />
+			<taggedvalues uid="045bb2ee-ab95-11df-9861-0014224f9977"
+				name="TogafElement_name" label="name" parameter-card="1" is-hidden="false"
+				is-signed="false" />
+			<taggedvalues uid="04a33aa6-ab95-11df-9861-0014224f9977"
+				name="TogafElement_description" label="description" parameter-card="1"
+				is-hidden="false" is-signed="false" />
+			<taggedvalues uid="04da11a2-ab95-11df-9861-0014224f9977"
+				name="TogafElement_category" label="category" parameter-card="1"
+				is-hidden="false" is-signed="false" />
+			<taggedvalues uid="06421a9e-ab95-11df-9861-0014224f9977"
+				name="TogafElement_source" label="source" parameter-card="1"
+				is-hidden="false" is-signed="false" />
+			<taggedvalues uid="06873ff2-ab95-11df-9861-0014224f9977"
+				name="TogafElement_owner" label="owner" parameter-card="1"
+				is-hidden="false" is-signed="false" />
+		</stereotype>
+		<stereotype uid="739c6ff2-ab6d-11df-9861-0014224f9977"
+			name="TogafDiagram" label="TogafDiagram" metaclass="StaticDiagram"
+			owner-stereotype="TogafElement" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/TogafDiagram16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/TogafDiagram16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/TogafDiagram16.png" />
+			</icons>
+			<notetype uid="82545d7b-6433-11e0-ad1e-bc305ba4815c" name="TOGAFModelingGuide"
+				label="" is-hidden="false" />
+		</stereotype>
+		<stereotype uid="ef2698ca-ab6c-11df-9861-0014224f9977"
+			name="Layer" label="Layer" metaclass="Package" owner-stereotype="TogafElement"
+			is-hidden="false">
+			<icons>
+				<small path="" />
+				<explorer path="" />
+				<diagram path="" />
+			</icons>
+		</stereotype>
+		<stereotype uid="e39a3e8a-ab6c-11df-9861-0014224f9977"
+			name="BusinessLayer" label="business layer" metaclass="Package"
+			owner-stereotype="Layer" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/BusinessLayer16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/BusinessLayer16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/BusinessLayer32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="f715e5aa-ab6c-11df-9861-0014224f9977"
+			name="ApplicationLayer" label="application layer" metaclass="Package"
+			owner-stereotype="Layer" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/Applicationlayer16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/Applicationlayer16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/Applicationlayer32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="1b78cab2-ab6d-11df-9861-0014224f9977"
+			name="BusinessEntities" label="business entities" metaclass="Package"
+			owner-stereotype="Layer" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/BusinessEntity16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/BusinessEntity16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/BusinessEntity32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="293c92c2-ab6d-11df-9861-0014224f9977"
+			name="LogicalDataModel" label="data architecture" metaclass="Package"
+			owner-stereotype="BusinessEntities" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/DataArchitecture16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/DataArchitecture16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/DataArchitecture32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="37051f82-ab6d-11df-9861-0014224f9977"
+			name="ApplicationArchitecture" label="application architecture"
+			metaclass="Package" owner-stereotype="Layer" is-hidden="false">
+			<icons>
+				<small
+					path="TogafArchitect/res/bmp/profile/ApplicationArchitecture16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/ApplicationArchitecture16.png" />
+				<diagram
+					path="TogafArchitect/res/bmp/profile/ApplicationArchitecture32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="56eadada-ab6d-11df-9861-0014224f9977"
+			name="BusinessArchitecture" label="business architecture" metaclass="Package"
+			owner-stereotype="Layer" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/BusinessArchitecture16.png" />
+				<explorer
+					path="TogafArchitect/res/bmp/profile/BusinessArchitecture16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/BusinessArchitecture32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="614d3022-ab6d-11df-9861-0014224f9977"
+			name="TechnologyArchitecture" label="technology architecture"
+			metaclass="Package" owner-stereotype="Layer" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/TechnologyLayer16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/TechnologyLayer16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/TechnologyLayer32.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="80f750e2-ab6d-11df-9861-0014224f9977"
+			name="Migration" label="migrates" metaclass="Dependency" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/modelio/Migration.png" />
+				<explorer path="TogafArchitect/res/bmp/modelio/Migration.png" />
+				<diagram path="TogafArchitect/res/bmp/modelio/Migration.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="101703a2-ab6e-11df-9861-0014224f9977"
+			name="TraceabilityDiagram" label="tracability" metaclass="StaticDiagram"
+			owner-stereotype="TogafDiagram" is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/DiagramTracabilite16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/DiagramTracabilite16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/DiagramTracabilite16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="b74e28b6-0158-11e0-abc2-0014224f9977"
+			name="TogafMatrixDiagram" label="matrix" metaclass="StaticDiagram"
+			is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/TogafMatrixDiagram16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/TogafMatrixDiagram16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/TogafMatrixDiagram16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="e250aff4-6507-11e0-ad1e-bc305ba4815c"
+			name="TogafConnector" label="connector" metaclass="Connector"
+			is-hidden="false">
+			<icons>
+				<small path="" />
+				<explorer path="" />
+				<diagram path="" />
+			</icons>
+		</stereotype>
+		<stereotype uid="374ea675-764e-11e0-8277-bc305ba4815c"
+			name="TogafRoot" label="Togaf" metaclass="Package" is-hidden="true">
+			<icons>
+				<small path="TogafArchitect/res/bmp/Togaf16.png" />
+				<explorer path="TogafArchitect/res/bmp/Togaf16.png" />
+				<diagram path="TogafArchitect/res/bmp/Togaf16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="8b0a71f8-8313-11e1-a738-bc305ba4815c" name="SOARoot" label="SOA" metaclass="Package" is-hidden="true" owner-stereotype="TogafRoot">
+			<icons>
+				<small path="TogafArchitect/res/bmp/soa16.png" />
+				<explorer path="TogafArchitect/res/bmp/soa16.png" />
+				<diagram path="TogafArchitect/res/bmp/soa16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="8b0ae72b-8313-11e1-a738-bc305ba4815c"
+			name="BPMRoot" label="BPM" metaclass="Package" is-hidden="true"  owner-stereotype="TogafRoot">
+			<icons>
+				<small path="TogafArchitect/res/bmp/bpm16.png" />
+				<explorer path="TogafArchitect/res/bmp/bpm16.png" />
+				<diagram path="TogafArchitect/res/bmp/bpm16.png" />
+			</icons>
+		</stereotype>
+		<stereotype uid="459949fe-847c-11e1-a738-bc305ba4815c"
+			name="TogafBusinessCollaboration" label="Business Collaboration" metaclass="Class"
+			is-hidden="false">
+			<icons>
+				<small path="TogafArchitect/res/bmp/profile/BusinessCollaboration16.png" />
+				<explorer path="TogafArchitect/res/bmp/profile/BusinessCollaboration16.png" />
+				<diagram path="TogafArchitect/res/bmp/profile/BusinessCollaboration32.png" />
+			</icons>
+		</stereotype>
+	</profile>
+	<parameter uid="417e78ae-d6a2-11df-ade8-0014224f9977" name="DisplayNote" />
+	<parameter uid="901cb00b-3aae-11e1-83d9-bc305ba4815c" name="Mode"
+		default-value="TOGAF">
+		<enumeration>
+			<literal name="SOA" label="SOA" />
+			<literal name="TOGAF" label="Togaf" />
+			<literal name="SIMPLETOGAF" label="Simple Togaf" />
+		</enumeration>
+	</parameter>
+
+	<dependencies>
+		<optional name='DocumentPublisher' version='3.2.00.8008' />
+		<optional name='PersistentProfile' version='2.1.01.8008' />
+		<optional name='JavaDesigner' version='2.1.01.8020' />
+	</dependencies>
+</module>
