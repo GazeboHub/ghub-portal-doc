@@ -1,6 +1,11 @@
+## Misc
+*~
+## Java
 *.class
-
-# Package Files #
+## Package Files 
 *.jar
 *.war
 *.ear
+*.zip
+*.gz
+*.tar
